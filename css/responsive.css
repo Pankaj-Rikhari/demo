@@ -1,0 +1,26 @@
+@media(min-width:767px) and (max-width:991px){
+  
+}
+@media(max-width:767px){
+    .inner-div{
+        margin-bottom: 25px;
+    }
+    .lines::before{
+        display: none;
+    }
+    .lines::after{
+        display: none;
+    }
+    .bottom_line{
+        border-bottom: 1px solid #ccc;
+    }
+    .left_line{
+        border-left: 1px solid #ccc;
+    }
+    .bottom_imges {
+        box-shadow: none;
+        margin-top: 20px;
+    }
+
+
+}
